@@ -11,7 +11,7 @@ This code uses:
 * Pytorch 2.1
 * Avalanche 0.4.0a (The library code is included in this repository, https://github.com/ContinualAI/avalanche)
 
-To setup your python environmet we provide a [conda_environment.yml](conda_environment.yml) to mirrors our Anaconda packages.
+To setup your python environmet we provide a [conda_environment.yml](environment.yml) to mirrors our Anaconda packages.
 Please use the following bash command:
 
     conda env create -n TwoCompCLEnv --file conda_environment.yml

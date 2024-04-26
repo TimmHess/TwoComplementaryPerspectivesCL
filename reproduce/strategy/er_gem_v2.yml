@@ -1,0 +1,3 @@
+strategy: "ER_GEMv2"
+lmbda: 1.0 
+do_decay_lmbda: True

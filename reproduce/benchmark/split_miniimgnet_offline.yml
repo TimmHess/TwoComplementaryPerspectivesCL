@@ -1,0 +1,25 @@
+
+# MODEL
+backbone: "SlimResNet18"
+use_GAP: True
+store_models: True
+
+# DATA SETUP
+scenario: 'miniimgnet'
+num_experiences: 20
+num_workers: 1
+restrict_num_threads: 1
+restrict_num_interop_threads: 2
+use_rand_class_ordering: True
+iterations_per_task: 200 
+bs: 128
+
+# CONTINUAL EVAL
+skip_initial_eval: True
+enable_continual_eval: True
+eval_periodicity: 1
+eval_max_iterations: -1
+
+optim: "sgd"
+momentum: 0.9
+weight_decay: 0.0

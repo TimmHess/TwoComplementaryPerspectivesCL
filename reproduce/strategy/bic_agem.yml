@@ -1,0 +1,9 @@
+strategy: "bic_agem"
+use_data_aug: "rand_crop"
+lmbda: 1.0 
+do_decay_lmbda: True 
+sample_size: 128 
+val_percentage: 0.1 
+second_stage_eps: 25 
+second_stage_lr: 0.1 
+lwf_alpha: -1 

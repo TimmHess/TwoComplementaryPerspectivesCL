@@ -1,0 +1,2 @@
+strategy: "DER"
+use_data_aug: "rand_crop"

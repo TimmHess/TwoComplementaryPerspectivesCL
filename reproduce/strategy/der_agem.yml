@@ -1,0 +1,2 @@
+strategy: "DER_AGEM"
+use_data_aug: "rand_crop"

@@ -1,0 +1,26 @@
+
+# MODEL
+backbone: "mlp"
+store_models: True
+requires_gpu: False
+
+# DATA SETUP
+scenario: 'rotmnist'
+num_workers: 2
+restrict_num_threads: 2
+restrict_num_interop_threads: 2
+domain_incr: True
+use_rand_class_ordering: True
+rotations_list: [0.0, 80.0, 160.0]
+epochs: [1]
+
+# CONTINUAL EVAL
+skip_initial_eval: True
+enable_continual_eval: True
+eval_periodicity: 1
+eval_max_iterations: -1 
+eval_task_subset_size: 1000  # Default
+
+optim: "sgd"
+momentum: 0.9
+weight_decay: 0.0

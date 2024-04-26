@@ -20,8 +20,8 @@ Please use the following bash command:
 ## Reproducing results
 To reporduce results of individual experiments, run the python code as below. 
 1. Select the benchmark configuration from `reproduce/benchmark/`. Optionally you can provide the `--dset_rootpath` argument to specify the locaiton of dataset. Otherwise the dataset are stored in `./data`.
-2. Select a strategy configuration from `reproduce/strategy`. Set the learning rate (`lr`) and for strategies involving experience replay, set the total size of the auxilliary buffer (`mem_size`). For online experiments you also need to set the preferred batch_size (`bs`).
-3. Select a seed and a location to store the results (`save_path`). 
+2. Select a strategy configuration from `reproduce/strategy`. Set the learning rate `{lr}` and for strategies involving experience replay, set the total size of the auxilliary buffer `{mem_size}`. For the online learning experiments also a batch_size `{bs}` needs to be specified.
+3. Select a seed and a location to store the results `{save_path}`. 
 
 #### Generally:
 

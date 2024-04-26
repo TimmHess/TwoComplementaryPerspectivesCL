@@ -1,7 +1,3 @@
-# TwoComplementaryPerspectivesCL
-This repository contains the codebase that was used to produce the results for the paper: "Two Complementary Perspectives to Continual Learning:Ask Not Only What to Optimize, But Also How"
-
-
 # Two Complementary Perspectives to Continual Learning 
 This repository contains the codebase that was used to produce the results for the paper: *"Two Complementary Perspectives to Continual Learning:Ask Not Only What to Optimize, But Also How"*
 
@@ -49,5 +45,5 @@ The results are logged with Tensorboard. To view the results use:
 ## Credit 
 We particularly thank the repositories containing the Avalanche continual learning library (https://github.com/ContinualAI/avalanche), and the codebase for continual evaluation (https://github.com/Mattdl/ContinualPrototypeEvolution)
 
-## Lisence
+## License
 Code is available under MIT license: A short and simple permissive license with conditions only requiring preservation of copyright and license notices.
